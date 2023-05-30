@@ -4,6 +4,8 @@ import org.junit.Test;
 
 import java.util.EmptyStackException;
 
+import static org.junit.Assert.*;
+
 public class StosTest {
     private Stos stack;
 
@@ -14,7 +16,7 @@ public class StosTest {
 
     @Test
     public void testIsEmptyWhenStackNotUsed() {
-        Assert.assertTrue(stack.isEmpty());
+        assertTrue(stack.isEmpty());
     }
 
     @Test(expected = EmptyStackException.class)
@@ -33,8 +35,8 @@ public class StosTest {
 
         stack.push(element);
 
-        Assert.assertFalse(stack.isEmpty());
-        Assert.assertEquals(element, stack.top());
+        assertFalse(stack.isEmpty());
+        assertEquals(element, stack.top());
     }
 
     @Test
@@ -45,7 +47,7 @@ public class StosTest {
         String poppedElement = stack.pop();
 
         Assert.assertSame(element, poppedElement);
-        Assert.assertTrue(stack.isEmpty());
+        assertTrue(stack.isEmpty());
     }
 
     @Test(expected = EmptyStackException.class)
@@ -63,10 +65,10 @@ public class StosTest {
         stack.push(element2);
         stack.push(element3);
 
-        Assert.assertEquals(element3, stack.pop());
-        Assert.assertEquals(element2, stack.pop());
-        Assert.assertEquals(element1, stack.pop());
-        Assert.assertTrue(stack.isEmpty());
+        assertEquals(element3, stack.pop());
+        assertEquals(element2, stack.pop());
+        assertEquals(element1, stack.pop());
+        assertTrue(stack.isEmpty());
     }
 
     @Test
@@ -74,8 +76,9 @@ public class StosTest {
         stack.push(null);
 
         Assert.assertNull(stack.pop());
-        Assert.assertTrue(stack.isEmpty());
+        assertTrue(stack.isEmpty());
     }
+
 
     @Test(expected = EmptyStackException.class)
     public void testPopAfterException() {

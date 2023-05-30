@@ -19,7 +19,7 @@ public class Stos {
 
     public void push(String element) {
         if (isFull()) {
-            throw new IllegalStateException("Stack is full");
+            throw new IllegalStateException("Stos jest pełny");
         }
         elements[++top] = element;
     }
