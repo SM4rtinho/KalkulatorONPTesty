@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a4cc7e4-90b0-4da5-b033-0008b536c4a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestyJednostkowe.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ONPCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ONPCalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StosTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="5a4cc7e4-90b0-4da5-b033-0008b536c4a0" name="Changes" comment="final commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +35,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/sebas/MyProjects",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -94,11 +84,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685470290204</updated>
-      <workItem from="1685470291512" duration="4463000" />
+      <workItem from="1685470291512" duration="4900000" />
     </task>
+    <task id="LOCAL-00001" summary="final commit">
+      <created>1685475674456</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685475674456</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="final commit" />
   </component>
 </project>
